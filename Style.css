@@ -29,39 +29,11 @@ body{
 
 /* about section image css */
 
-/* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-}
-
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-
-.card-title {
-    text-align: center;
-}
-
-.card:hover .servicesIcon {
-    color: #008000;
-}
-
-.servicesText:hover {
-    border: 1px solid #008000;
-}
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
 }
-
-
-
-
-
 @keyframes slideInFromLeft {
     from {
         left: -50%;
@@ -77,8 +49,8 @@ body{
 }
 
 
-.row{
-    display: flex;
+#row1{
+    display:flex;
     flex-wrap:wrap;
     padding: 0 4px;
     
@@ -86,8 +58,8 @@ body{
 
 .column{
     flex:25%;
-    max-width: 25%;
-    padding: 0 4px;
+    max-width: 33.3%;
+    padding: 80px;
 }
 
 .column img{
@@ -110,3 +82,23 @@ body{
         max-width: 100%;
     }
 }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
